@@ -1,0 +1,62 @@
+RANK: 76
+ORIGINAL ID: 76
+DIFFICULTY: Beginner
+CATEGORY: CLI / Productivity
+TAGLINE: A simple CLI task manager with JSON storage.
+
+======================================================================
+## Project 76 — TaskFlow
+
+**Tagline:** A simple CLI task manager with JSON storage.
+
+**Category:** CLI / Productivity
+
+### Problem Statement
+Managing daily tasks shouldn't require heavy web apps. TaskFlow provides a simple, terminal-based way to keep track of to-dos.
+
+### Detailed Description
+TaskFlow is a local, terminal-based application that allows users to add, remove, complete, and list daily tasks. It stores data locally in a JSON file to persist tasks across sessions. Users can tag tasks, set deadlines, and view a summary of their day. This project focuses heavily on basic Java syntax, File I/O, and string parsing without relying on external databases.
+
+### Core Features
+- Add, edit, delete, and complete tasks
+- JSON-based local storage
+- Tagging and filtering
+- Due date tracking
+- Simple CLI menu loop
+
+### Technical Challenges
+- Handling corrupted JSON files gracefully
+- Managing date/time parsing (java.time)
+- Keeping the CLI menu loop responsive and error-free
+
+### Suggested Tech Stack
+- Java 21
+- Gson or Jackson (JSON parsing)
+- java.nio.file for storage
+
+### Recommended Architecture
+[CLI Interface] -> [Task Controller] -> [JSON File Manager] -> [tasks.json]
+
+### Java Concepts Demonstrated
+- File I/O
+- Basic Collections (List, Map)
+- CLI input handling (Scanner)
+- Object Serialization
+
+**Difficulty:** Beginner  
+**Resume Value:** ★★☆☆☆  
+**GitHub Portfolio Value:** ★★☆☆☆  
+**Research Potential:** Low  
+**Startup Potential:** ★☆☆☆☆  
+**Open Source Potential:** ★☆☆☆☆  
+**Learning Value:** ★★★★☆
+
+### Company Alignment
+| Company | Score | Reason |
+|---|---|---|
+| Local Tech Firms | 5 | Good fundamental Java skills |
+| IT Consultancies | 6 | Demonstrates basic CRUD logic |
+| Bootcamps | 8 | Standard portfolio project |
+
+---
+======================================================================

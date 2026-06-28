@@ -1,0 +1,21 @@
+# Gradle & Java
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+# IDEs
+.idea/
+*.iml
+.vscode/
+# OS files
+Thumbs.db
+.DS_Store
+# Python
+__pycache__/
+*.pyc
+# Logs / temporary
+*.log
+*.tmp
+# Maven (if present)
+target/
+# Others
+*.class
